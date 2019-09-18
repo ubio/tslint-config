@@ -20,6 +20,7 @@ module.exports = {
         "no-shadowed-variable": false,
         "object-literal-key-quotes": false,
         "no-switch-case-fall-through": true,
-        "variable-name": [true, "allow-leading-underscore", "allow-pascal-case", "check-format"]
+        "variable-name": [true, "allow-leading-underscore", "allow-pascal-case", "check-format"],
+        "no-restricted-globals": [true, "name", "length", "event", "parent", "top", "find", "close", "stop", "status", "self", "open"]
     }
 };
